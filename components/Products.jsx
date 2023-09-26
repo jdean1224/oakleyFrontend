@@ -41,7 +41,7 @@ function Products() {
   const [checkOut, setCheckOut] = useState(false);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:5040/api/v1/products')
+    fetch('http://127.0.0.1:10000/api/v1/products')
       .then((res) => res.json())
       .then((data) => setProducts(data.data.products))
       .catch((err) => console.error('Error fetching data:', err));
