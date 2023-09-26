@@ -1,0 +1,83 @@
+.productsMain {
+  height: 700px;
+  width: 1000px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.productImg {
+  height: 170px;
+}
+
+.productContainer {
+  height: 330px;
+  width: calc(33.33% - 60px); /* 33.33% for three items, minus margin */
+  background-color: white;
+  margin: 20px 10px 20px; /* Adjust the margin as needed for spacing */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 20px 0px 20px 0px;
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 2px 7px 0px;
+}
+
+.productContainer:hover {
+  transform: scale(1.1);
+}
+
+.productName {
+  /* margin-top: 16px; */
+  font-size: 1.2rem;
+}
+
+.productPrice {
+  /* margin-top: 10px; */
+  color: black;
+}
+
+.addCartBtn {
+  height: 26px;
+  width: 90px;
+  border-radius: 50px;
+  background-color: rgb(255, 220, 174);
+}
+
+.checkOutBtn {
+  height: 50px;
+  width: 160px;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  background-color: aquamarine;
+  position: absolute;
+  top: 120px;
+  right: 160px;
+  box-shadow: 2px 2px 7px 0px;
+}
+
+.numCartItems {
+  color: rgb(255, 247, 0);
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.cartItemsMessage {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 60px;
+  right: 100px;
+  font-family: sans-serif;
+}
+
+.title {
+  position: absolute;
+  top: 60px;
+  font-family: 'Skranji', cursive;
+  font-size: 3rem;
+  color: rgb(190, 18, 247);
+}

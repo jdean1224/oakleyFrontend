@@ -1,0 +1,78 @@
+.cartContainer {
+  margin-top: 70px;
+  height: 700px;
+  width: 900px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  border-radius: 6px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 7px 0px;
+}
+
+.yourCart {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.cartItemImage {
+  height: 100px;
+  margin-left: 60px;
+  margin-top: 30px;
+  width: 100px;
+}
+
+.cartItemDetails {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.productName {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.cartItem {
+  /* background-color: aqua; */
+  display: flex;
+}
+
+.totalContainer {
+  height: 160px;
+  width: 400px;
+  /* background-color: orange; */
+  position: absolute;
+  top: 420px;
+  left: 870px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px 7px 0px;
+  border-radius: 6px;
+  background-color: rgb(202, 202, 202);
+}
+
+.tax {
+  border-bottom: 1px solid black;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.taxAmount {
+  margin-left: 30px;
+  font-weight: 900;
+}
+
+.boldNum {
+  font-weight: 900;
+}
+
+.boldTotal {
+  font-weight: 900;
+  margin-left: 29px;
+}

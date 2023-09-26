@@ -1,0 +1,16 @@
+.homepage {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+    to right bottom,
+    #00bef2,
+    #4cb3ff,
+    #88a4ff,
+    #bc90f0,
+    #e47ad1
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
